@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<mail>
+	<mailServer description="电子邮件服务器">mail.yonyou.com</mailServer>
+	<from>Zhult1@yonyou.com</from>
+	<password>123123</password>
+	<toList description="收件人列表">
+		<to>XXX@XX.com</to>
+		<to>Zhult1@yonyou.com</to>
+	</toList>
+	<ccList description="抄送人列表">
+		<cc>1256573276@qq.com</cc>
+	</ccList>
+</mail>
+<server description="检测的服务器的配置">
+	<sName description="服务器名">ufsdpwebsrv</sName>
+	<userName description="服务器登录用户名">ufsdpwebsrv\administrator</userName>
+	<password description="登录密码">Zqju&amp;887</password>
+	<minFreeSize description="空闲空间小于此值时执行操作">102400</minFreeSize>
+	<minFreePer description="服务器名">0.1</minFreePer>
+	<operation description="操作名，取值为sendMail delFile">sendMail delFile</operation>
+	<clearDir description="如果执行 delFile 操作所要清空的目录列表">
+		<dir>D$\test</dir>
+	</clearDir>
+</server>
+<server description="检测的服务器的配置">
+	<sName description="服务器名">ufsdpwebsrv</sName>
+	<userName description="服务器登录用户名">ufsdpwebsrv\administrator</userName>
+	<password description="登录密码">Zqju&amp;887</password>
+	<minFreeSize description="空闲空间小于此值时执行操作">102400</minFreeSize>
+	<minFreePer description="服务器名">0.1</minFreePer>
+	<operation description="操作名，取值为sendMail delFile">sendMail delFile</operation>
+	<clearDir description="如果执行 delFile 操作所要清空的目录列表">
+		<dir>D$\test</dir>
+	</clearDir>
+</server>
+</config>
